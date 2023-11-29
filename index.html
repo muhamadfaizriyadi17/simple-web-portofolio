@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website using html and css | Coding FaizCode</title>
+    <link rel="icon" href="img/logo-faiz.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Rimix icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <a href="#" class="logo">
+            <img src="img/logo-faiz.png">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="h-right">
+            <a href="#contact"><i class='bx bx-phone-call'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+
+    <!-- home section  -->
+    <section id="home" class="home">
+        <div class="home-text">
+            <span>Developer</span>
+            <h1>Faiz Riyadi,</h1>
+            <p>Hello, My Name is Muhamad Faiz Riyadi. I am an Informatic Student in Universitas Primagraha. I have an interest in becoming a Professional Programmer</p>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+            <div class="main-btn">
+                <a href="https://drive.google.com/file/d/18f-sxSus_7tARP4lK2GgVFbLeXc0AESs/view?usp=sharing" target="_blank" class="btn">Download CV</a>
+                <a href="#" class="btn2">Text Me</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="img/faiz.png">
+        </div>
+        <div class="scroll">
+            <a href="#about"><img src="img/scroll.png" alt=""></a>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <div class="primary-heading">
+                            Creative <span class="fw-bold primary-heading-bold">Work</span>
+                        </div>
+                        <div class="paragraph mt-2">
+                            Hello, my name is Muhamad Faiz Riyadi, and I am currently pursuing my degree in Computer Science at Primagraha
+                            University. In this semester, I am participating in the Kampus Merdeka program, specifically the Bangkit Academy Batch
+                            2, 2023, with a focus on the Cloud Computing learning path. I harbor a deep interest and passion for learning in the
+                            realms of Algorithm Programming, Web Development, and Graphic Design. I believe in the transformative power of education and am excited about the opportunities that the Kampus Merdeka
+                            program provides. Through dedication and hard work, I aspire to contribute meaningfully to the tech industry and beyond.
+                        </div>
+                        <a href="#" class="section-2-button mt-4">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="gallery" class="gallery">
+        <!-- carosell image -->
+        <div class="gallery-text">
+            My <span class="gallery-text-bold">Galerry</span>
+        </div>
+        <div class="carousel">
+            <div class="carousel-inner">
+                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                <div class="carousel-item">
+                    <img src="img/website1.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="img/website2.png">
+                </div>
+                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                <div class="carousel-item">
+                    <img src="img/website3.png">
+                </div>
+                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+                <label for="carousel-2" class="carousel-control next control-1">›</label>
+                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                <label for="carousel-3" class="carousel-control next control-2">›</label>
+                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                <label for="carousel-1" class="carousel-control next control-3">›</label>
+                <ol class="carousel-indicators">
+                    <li>
+                        <label for="carousel-1" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-2" class="carousel-bullet">•</label>
+                    </li>
+                    <li>
+                        <label for="carousel-3" class="carousel-bullet">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+        <div class="contact-text">
+            Contact <span class="contact-text-bold">Me</span>
+        </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>company</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">affiliate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">shipping</a></li>
+                                <li><a href="#">returns</a></li>
+                                <li><a href="#">order status</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>online shop</h4>
+                            <ul>
+                                <li><a href="#">watch</a></li>
+                                <li><a href="#">bag</a></li>
+                                <li><a href="#">shoes</a></li>
+                                <li><a href="#">dress</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-github'></i></a>
+                                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </footer>
+    </section>
+
+    <!-- JavaScript file Link  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
